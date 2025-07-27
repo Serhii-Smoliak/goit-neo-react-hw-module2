@@ -1,0 +1,53 @@
+.buttonGroup {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1.5rem 0;
+}
+
+.button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.goodButton {
+  background-color: #28a745;
+  color: white;
+}
+
+.goodButton:hover {
+  background-color: #218838;
+}
+
+.neutralButton {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.neutralButton:hover {
+  background-color: #e0a800;
+}
+
+.badButton {
+  background-color: #dc3545;
+  color: white;
+}
+
+.badButton:hover {
+  background-color: #c82333;
+}
+
+.resetButton {
+  background-color: #6c757d;
+  color: white;
+}
+
+.resetButton:hover {
+  background-color: #5a6268;
+}

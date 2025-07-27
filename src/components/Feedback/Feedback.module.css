@@ -1,0 +1,61 @@
+.statsContainer {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  border: 1px solid #dee2e6;
+}
+
+.statItem {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.statLabel {
+  font-weight: 600;
+}
+
+.statValue {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.goodValue {
+  color: #28a745;
+}
+
+.neutralValue {
+  color: #ffc107;
+}
+
+.badValue {
+  color: #dc3545;
+}
+
+.totalValue {
+  color: #007bff;
+}
+
+.positiveExcellent {
+  color: #28a745;
+  font-weight: 800;
+}
+
+.positiveGood {
+  color: #20c997;
+}
+
+.positiveFair {
+  color: #ffc107;
+}
+
+.positivePoor {
+  color: #fd7e14;
+}
+
+.positiveBad {
+  color: #dc3545;
+}
